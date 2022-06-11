@@ -55,7 +55,7 @@ describe("<Home />", () => {
           name: "Welly",
           phone: "+886 0970...",
           email: "hivoid19@gmail.com",
-          website: "https://wellyshen.com",
+          website: "https://mirmashhouri.com",
         },
       ],
     };

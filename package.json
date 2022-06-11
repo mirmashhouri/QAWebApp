@@ -1,12 +1,12 @@
 {
-  "name": "react-cool-starter",
+  "name": "QAWebApp",
   "version": "4.4.0",
   "private": true,
   "description": "A starter boilerplate for a universal web application with the best development experience and best practices.",
   "license": "MIT",
-  "homepage": "https://github.com/wellyshen/react-cool-starter",
-  "repository": "https://github.com/wellyshen/react-cool-starter",
-  "bugs": "https://github.com/wellyshen/react-cool-starter/issues",
+  "homepage": "https://github.com/mirmashhouri/QAWebApp",
+  "repository": "https://github.com/mirmashhouri/QAWebApp",
+  "bugs": "https://github.com/mirmashhouri/QAWebApp/issues",
   "keywords": [
     "starter",
     "boilerplate",
@@ -33,7 +33,7 @@
     "stylelint",
     "prettier"
   ],
-  "author": "Welly Shen <hivoid19@gmail.com> (https://github.com/wellyshen)",
+  "author": "Welly Shen <hivoid19@gmail.com> (https://github.com/mirmashhouri)",
   "engines": {
     "node": ">=12",
     "npm": ">=6"

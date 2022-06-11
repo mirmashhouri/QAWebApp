@@ -17,7 +17,7 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 
 ## Development Workflow
 
-After cloning REACT COOL STARTER, run `yarn` to fetch its dependencies. Then, you can run [several commands](https://github.com/wellyshen/react-cool-starter#script-commands).
+After cloning REACT COOL STARTER, run `yarn` to fetch its dependencies. Then, you can run [several commands](https://github.com/mirmashhouri/QAWebApp#script-commands).
 
 ## Style Guide
 

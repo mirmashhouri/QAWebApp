@@ -15,7 +15,7 @@ const mockData = {
   name: "Welly",
   phone: "+886 0970...",
   email: "hivoid19@gmail.com",
-  website: "https://wellyshen.com",
+  website: "https://mirmashhouri.com",
 };
 const { id } = mockData;
 const mockError = "Oops! Something went wrong.";
