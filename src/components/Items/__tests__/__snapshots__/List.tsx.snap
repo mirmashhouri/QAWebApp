@@ -1,19 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<List /> renders 1`] = `
+exports[`<Items /> renders 1`] = `
 <div
-  class="UserList"
+  class="items"
 >
   <h4>
-    User List
+    Question List
   </h4>
   <ul>
     <li>
       <a
         href="/UserInfo/1"
       >
-        Welly
+        What is your name?
       </a>
+      <div>
+        My name is Abbas
+      </div>
     </li>
   </ul>
 </div>
