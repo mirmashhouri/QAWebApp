@@ -1,4 +1,4 @@
-# Contributing to REACT COOL STARTER
+# Contributing to The awesome Q/A tool
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
@@ -17,7 +17,7 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 
 ## Development Workflow
 
-After cloning REACT COOL STARTER, run `yarn` to fetch its dependencies. Then, you can run [several commands](https://github.com/mirmashhouri/QAWebApp#script-commands).
+After cloning The awesome Q/A tool, run `yarn` to fetch its dependencies. Then, you can run [several commands](https://github.com/mirmashhouri/QAWebApp#script-commands).
 
 ## Style Guide
 
@@ -27,4 +27,4 @@ However, there are still some styles that the linter cannot pick up. If you are 
 
 ## License
 
-By contributing to REACT COOL STARTER, you agree that your contributions will be licensed under its MIT license.
+By contributing to The awesome Q/A tool, you agree that your contributions will be licensed under its MIT license.

@@ -16,7 +16,7 @@ exports[`<App /> renders 1`] = `
     />
     <h1>
       <em>
-        REACT COOL STARTER
+        The awesome Q/A tool
       </em>
     </h1>
   </a>

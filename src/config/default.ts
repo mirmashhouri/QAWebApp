@@ -4,8 +4,8 @@ export default {
   API_URL: "https://jsonplaceholder.typicode.com",
   APP: {
     htmlAttributes: { lang: "en" },
-    title: "REACT COOL STARTER",
-    titleTemplate: "REACT COOL STARTER - %s",
+    title: "The awesome Q/A tool",
+    titleTemplate: "The awesome Q/A tool - %s",
     meta: [
       {
         name: "description",

@@ -10,6 +10,7 @@ declare module "*.jpeg";
 declare module "*.webp";
 declare module "*.css";
 declare module "*.scss";
+declare module "*.json";
 
 declare namespace NodeJS {
   interface Global {
