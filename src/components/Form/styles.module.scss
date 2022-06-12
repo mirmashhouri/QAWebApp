@@ -1,0 +1,22 @@
+@import "../../theme/variables";
+
+.item {
+  color: $color-white;
+
+  a {
+    color: $color-dark-gray;
+  }
+}
+.item ul {
+  padding-left: 17px;
+
+  li {
+    margin-bottom: 0.5em;
+  }
+}
+.answer {
+  display: none;
+}
+.answer.open {
+  display: block;
+}

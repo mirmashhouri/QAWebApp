@@ -30,11 +30,16 @@ const questionList = createSlice({
       state.readyStatus = "failure";
       state.error = payload;
     },
+    insert: (state, { payload }: PayloadAction<Question>) => {
+      state.readyStatus = "success";
+      state.items.push(payload);
+    },
   },
 });
 
 export default questionList.reducer;
-export const { getRequesting, getSuccess, getFailure } = questionList.actions;
+export const { getRequesting, getSuccess, getFailure, insert } =
+  questionList.actions;
 
 export const fetchQuestionList = (): AppThunk => async (dispatch) => {
   dispatch(getRequesting());
@@ -47,6 +52,12 @@ export const fetchQuestionList = (): AppThunk => async (dispatch) => {
     dispatch(getSuccess(data as Question[]));
   }
 };
+export const addNewQuestion =
+  (data: Question): AppThunk =>
+  async (dispatch) => {
+    dispatch(getRequesting());
+    dispatch(insert(data));
+  };
 
 const shouldFetchQuestionList = (state: AppState) =>
   state.questionList.readyStatus !== "success";

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders 1`] = `
+<form
+  class="item"
+>
+  <ul>
+    <li>
+      <input
+        name="question"
+        placeholder="question"
+        type="text"
+      />
+    </li>
+    <li>
+      <textarea
+        name="answer"
+      />
+    </li>
+    <li>
+      <input
+        type="submit"
+      />
+    </li>
+  </ul>
+</form>
+`;
