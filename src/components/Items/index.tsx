@@ -1,6 +1,5 @@
 import { memo } from "react";
-import { Link } from "react-router-dom";
-
+import Item from "../Item";
 import { Question } from "../../services/questionService";
 import styles from "./styles.module.scss";
 
@@ -12,11 +11,8 @@ const Items = ({ items }: Props) => (
   <div className={styles.items}>
     <h4>Question List</h4>
     <ul>
-      {items.map(({ id, question, answer }) => (
-        <li key={id}>
-          <Link to={`/UserInfo/${id}`}>{question}</Link>
-          <div>{answer}</div>
-        </li>
+      {items.map((item) => (
+        <Item key={item.id} item={item} />
       ))}
     </ul>
   </div>

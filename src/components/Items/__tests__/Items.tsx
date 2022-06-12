@@ -1,13 +1,13 @@
 import { render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 
-import List from "..";
+import Items from "..";
 
 describe("<Items />", () => {
   it("renders", () => {
     const tree = render(
       <MemoryRouter>
-        <List
+        <Items
           items={[
             {
               id: 1,

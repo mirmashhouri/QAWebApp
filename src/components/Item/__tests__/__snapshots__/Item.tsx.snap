@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> renders 1`] = `
+<div
+  class="item"
+>
+  <ul>
+    <li>
+      <button
+        type="button"
+      >
+        What is your name?
+      </button>
+      <a
+        href="/UserInfo/1"
+      >
+         edit 
+      </a>
+      <span>
+         | 
+      </span>
+      <a
+        href="/UserInfo/1"
+      >
+         delete 
+      </a>
+      <div
+        class="answer "
+      >
+        My name is Abbas
+      </div>
+    </li>
+  </ul>
+</div>
+`;
