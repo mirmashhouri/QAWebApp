@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders 1`] = `
+<form
+  class="form"
+>
+  <div
+    class="tooltip-wrapper"
+  >
+    <h4>
+      Create New Question
+    </h4>
+  </div>
+  <div
+    class="mb-3"
+  >
+    <label
+      class="form-label w-100"
+      for="question"
+    >
+      <span>
+        Question
+      </span>
+      <input
+        class="form-control"
+        id="question"
+        name="question"
+        type="text"
+      />
+    </label>
+    <div
+      class="error"
+    />
+  </div>
+  <div
+    class="mb-3"
+  >
+    <label
+      class="form-label w-100"
+      for="answer"
+    >
+      <span>
+        Answer
+      </span>
+      <textarea
+        class="form-control"
+        id="answer"
+        name="answer"
+      />
+    </label>
+    <div
+      class="error"
+    />
+  </div>
+  <div
+    class="mb-3"
+  >
+    <label
+      class="form-label w-100"
+      for="hasDelay"
+    >
+      <span>
+        5s delay
+      </span>
+      <input
+        class="form-check-input"
+        id="hasDelay"
+        name="hasDelay"
+        type="checkbox"
+      />
+    </label>
+  </div>
+  <input
+    class="btn btn-primary"
+    type="submit"
+  />
+</form>
+`;

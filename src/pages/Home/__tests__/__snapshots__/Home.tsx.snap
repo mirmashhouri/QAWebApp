@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders an error if loading failed 1`] = `
+<div
+  class="home"
+>
+  <p>
+    Loading
+  </p>
+</div>
+`;
+
+exports[`<Home /> renders the <Items /> if loading was successful 1`] = `
+<div
+  class="home"
+>
+  <div
+    class="container-md"
+  >
+    <div
+      class="items"
+    >
+      <div
+        class="tooltip-wrapper"
+      >
+        <h4>
+          Question List
+        </h4>
+      </div>
+      <ul>
+        <div
+          class="item"
+        >
+          <ul>
+            <li>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-7 col-md-9"
+                >
+                  <button
+                    class="w-100 text-left"
+                    type="button"
+                  >
+                    What is your name?
+                  </button>
+                  <div
+                    class="answer "
+                  >
+                    My name is Abbas
+                  </div>
+                </div>
+                <div
+                  class="col-5 col-md-3 action"
+                >
+                  <button
+                    type="button"
+                  >
+                    Edit
+                  </button>
+                  <span>
+                     | 
+                  </span>
+                  <button
+                    type="button"
+                  >
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+    <div
+      class="tooltip-wrapper"
+    >
+      <button
+        class="btn btn-light m-1"
+        type="button"
+      >
+        Add New
+      </button>
+    </div>
+    <div
+      class="tooltip-wrapper"
+    >
+      <button
+        class="btn btn-light m-1"
+        type="button"
+      >
+        Sort
+      </button>
+    </div>
+    <div
+      class="tooltip-wrapper"
+    >
+      <button
+        class="btn btn-danger m-1"
+        type="button"
+      >
+        Delete All
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> renders the loading status if data invalid 1`] = `
+<div
+  class="home"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`<Home /> renders the loading status if requesting data 1`] = `
+<div
+  class="home"
+>
+  <p>
+    Loading...
+  </p>
+</div>
+`;

@@ -1,0 +1,33 @@
+@import "../../theme/variables";
+
+.item {
+  background-color: $color-white;
+  border-radius: 5px;
+  color: $color-dark-gray;
+  margin: 10px 0;
+  padding: 10px 0;
+  a {
+    color: $color-dark-gray;
+  }
+  button {
+    background: transparent;
+    border: 0;
+    text-align: left;
+  }
+}
+.item ul {
+  padding-left: 0;
+}
+.action {
+  text-align: right;
+  button {
+    color: $color-blue;
+  }
+}
+.answer {
+  display: none;
+}
+.answer.open {
+  display: block;
+  padding: 1px 6px;
+}

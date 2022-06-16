@@ -1,0 +1,15 @@
+@import "../../theme/variables";
+
+.items {
+  border-bottom: 1px solid $color-white;
+  color: $color-white;
+  margin: 10px 0;
+  padding: 5px;
+  a {
+    color: $color-white;
+  }
+}
+.items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
